@@ -5,16 +5,14 @@ import s from './ShopItemClass.module.css'
 class ShopItemClass extends React.Component {
   constructor(props) {
     super(props);
-    console.log(props)
-
     this.item = props.item;
   }
   render() {
-    console.log(this.item)
     const item = this.item;
     return (
       <>
         <div className={s['main-content']}>
+          <h2 style={{ background: 'red' }}>from ShopItemClass</h2>
           <h2>{item.brand}</h2>
           <h1>{item.title}</h1>
           <h3>{item.description}</h3>

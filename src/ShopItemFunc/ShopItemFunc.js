@@ -5,6 +5,7 @@ const ShopItemFunc = ({item}) => {
   return (
     <>
       <div className={s['main-content']}>
+        <h2 style={{background: 'red'}}>from ShopItemFunc</h2>
         <h2>{item.brand}</h2>
         <h1>{item.title}</h1>
         <h3>{item.description}</h3>
