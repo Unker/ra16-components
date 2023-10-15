@@ -1,5 +1,5 @@
 import s from './App.module.css'
-import ShopItemFunc from './store-func/StoreFunc'
+import ShopItemFunc from './ShopItemFunc'
 import item from './res/item'
 
 function App() {

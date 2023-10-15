@@ -1,5 +1,5 @@
 import cn from 'classnames'
-import s from './StoreFunc.module.css'
+import s from './ShopItemFunc.module.css'
 
 const ShopItemFunc = (item) => {
   return (
