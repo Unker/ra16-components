@@ -3,10 +3,8 @@ import cn from 'classnames'
 import s from './ShopItemClass.module.css'
 
 class ShopItemClass extends React.Component {
-  constructor(props) {
-    super(props);
-    this.item = props.item;
-  }
+  item = this.props.item;
+
   render() {
     const item = this.item;
     return (
